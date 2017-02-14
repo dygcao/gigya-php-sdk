@@ -78,7 +78,7 @@ class GSRequest
         $this->traceField("apiMethod", $apiMethod);
         $this->traceField("apiKey", $apiKey);
 
-        GSRequest::$cafile = realpath(dirname(__FILE__) . '/config/cacert.pem');
+        GSRequest::$cafile = realpath(dirname(__FILE__) . '/../config/cacert.pem');
     }
 
     public function setParam($param, $val)
