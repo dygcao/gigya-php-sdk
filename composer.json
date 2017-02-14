@@ -1,6 +1,7 @@
 {
     "name": "ftven/gigya-php-sdk",
     "description": "Gigya PHP SDK",
+    "version": "2.15.8",
     "authors": [
         {
             "name": "Gérard CAO",
