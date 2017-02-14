@@ -1,0 +1,19 @@
+{
+    "name": "ftven/gigya-php-sdk",
+    "description": "Gigya PHP SDK",
+    "authors": [
+        {
+            "name": "Gérard CAO",
+            "email": "gerard.cao.ext@francetv.fr"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Gigya\\": "Gigya/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}

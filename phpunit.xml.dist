@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         bootstrap="./bootstrap.php"
+         strict="true"
+         verbose="true">
+    <php>
+        <env name="gigya_apikey" value="enter_your_apikey"/>
+        <env name="gigya_secretkey" value="enter_your_secretkey"/>
+    </php>
+    <testsuite name="Test cases">
+        <directory suffix="Test.php">./tests</directory>
+    </testsuite>
+</phpunit>
