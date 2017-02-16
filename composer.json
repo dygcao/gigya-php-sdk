@@ -8,10 +8,14 @@
             "email": "gerard.cao.ext@francetv.fr"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Gigya\\": "Gigya/"
+        }
+    },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Gigya\\": "Gigya/"
+            "Tests\\": "tests/"
         }
     },
     "require-dev": {
