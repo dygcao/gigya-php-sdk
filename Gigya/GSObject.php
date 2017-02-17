@@ -1,6 +1,8 @@
 <?php
 
 namespace Gigya;
+use Gigya\Exception\GSException;
+use Gigya\Exception\GSKeyNotFoundException;
 
 /**
  * Used for passing parameters when issueing requests e.g. GSRequest.send

@@ -2,6 +2,8 @@
 
 namespace Gigya;
 
+use Gigya\Exception\GSException;
+
 class GSArray
 {
     private $map;
