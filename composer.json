@@ -1,5 +1,5 @@
 {
-    "name": "ftven/gigya-php-sdk",
+    "name": "dygcao/gigya-php-sdk",
     "description": "Gigya PHP SDK",
     "version": "2.15.8",
     "authors": [
@@ -17,6 +17,9 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require": {
+        "php": ">=5.5.9"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
